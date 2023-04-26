@@ -3,8 +3,8 @@ import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 import { Link } from 'react-scroll';
 
 import './navbar.css';
-import vidbg from '../../assests/resources/pexels-ingrid-north-4478322-1920x1080-25fps.mp4'
-import logo from '../../assests/resources/smphbg-removebg-preview.png'
+import vidbg from '../../assests/resources/pexels-ingrid-north-4478322-1920x1080-25fps (1) (1).mp4'
+import logo from '../../assests/resources/smphbg-removebg-preview.webp'
 
 const Menu = () => {
   <>

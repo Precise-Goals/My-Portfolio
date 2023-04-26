@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import Precise from '../../assests/resources/Cheers-removebg-preview.png'
+import Precise from '../../assests/resources/Cheers-removebg-preview.webp'
 import PreciseM from '../../assests/resources/smph.png'
 import { instagram, github, replit, discord, linked } from '../../containers/header/imports';
 const Header = () => (

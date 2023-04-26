@@ -119,7 +119,8 @@
 }
 
 .pg__navbar-links_logo img{
-    width: 27%;
+    width: 9rem;
+    height: auto;
 }
 .pg__navbar-menu{
     display: none;

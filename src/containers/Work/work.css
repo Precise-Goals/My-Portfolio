@@ -98,13 +98,13 @@
   z-index: 2;
 }
 .fidbtm1 {
-  background-image: url(../../../src/assests/resources/1.png);
+  background-image: url(../../../src/assests/resources/1.webp);
 }
 .fidbtm2 {
-  background-image: url(../../../src/assests/resources/2.png);
+  background-image: url(../../../src/assests/resources/2.webp);
 }
 .fidbtm3{
-  background-image: url(../../../src/assests/resources/3.png);
+  background-image: url(../../../src/assests/resources/3.webp);
 }
 .fidbtm1:hover,
 .fidbtm2:hover,
