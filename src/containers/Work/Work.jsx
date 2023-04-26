@@ -1,5 +1,6 @@
 import React from 'react'
 import './work.css'
+import { Link } from 'react-scroll'
 import Chart from "../../../src/Components/chart/Chart.tsx"
 // import frnt from '../../assests/resources/1.png'
 // import gfx from '../../assests/resources/2.png'
@@ -8,12 +9,12 @@ import Chart from "../../../src/Components/chart/Chart.tsx"
 const Work = () => {
   return (
     <div className='Workspace setion__margin'>
-      <div className='workord'>
+      <div className='workord' id='Work'>
         <div className='mid-part'>
           <div className='worknav'>
-            <li><a href="#fff"><p>Blogs</p></a></li>
-            <li><a href="#fff"><p>Reviews</p></a></li>
-            <li><a href="#fff"><p>Contact</p></a></li>
+            <li><a href='#fff'><p>Blogs</p></a></li>
+            <li><Link to="Review" spy={true} smooth={true} offset={-150} duration={300} delay={0}><p>Reviews</p></Link></li>
+            <li><Link to="Contact" spy={true} smooth={true} offset={-100} duration={300} delay={0}><p>Contact</p></Link></li>
           </div>
           <div className='workdef'>
             <div className='bar'></div>

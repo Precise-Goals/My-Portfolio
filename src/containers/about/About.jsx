@@ -6,9 +6,9 @@ import './about.css';
 
 const About = () => (
 
-  <div className="pg__about stion__margin" id='#about'>
+  <div className="pg__about stion__margin" >
     <div className='overlay'>
-      <div className="About">
+      <div className="About" id='About'>
         <div class="pag__features-container__feature-title"><div></div></div>
         <h1>About Me</h1>
       </div>

@@ -119,6 +119,7 @@
 
 .pg__navbar-links_logo img{
     width: 27%;
+    cursor: pointer;
 }
 .pg__navbar-menu{
     display: none;

@@ -1,12 +1,12 @@
 import React from 'react'
 import './footer.css'
 import { FaGithub, FaLinkedin, FaYoutube, FaDiscord, FaCubes, FaInstagram, FaSpotify, FaPaperPlane } from 'react-icons/fa';
-
+import {Link} from 'react-scroll'
 const Footer = () => {
   return (
     <div className='Footeract'>
       <hr />
-      <div className='Overley'>
+      <div className='Overley'  id='Contact'>
         <div className='row1'>
           <div className='coleft'>
             <h1 >Precise <span> Goals </span></h1>
@@ -14,34 +14,36 @@ const Footer = () => {
           </div>
           <div className='colright'>
             <div className='Homeline'>
-              <h4><p><a href="#top">Home</a></p></h4>
+              <h4><p><a href="top">Home</a></p></h4>
             </div>
             <div className='Aline' >
-              <h4><p><a href="#top">About Me</a></p></h4>
+            <h4><p><a href="Work">About</a></p></h4>
               <li>
-                <h5><p><a href="#top">Experience</a></p></h5>
-                <h5><p><a href="#top">Skills</a></p></h5>
-                <h5><p><a href="#top">Education</a></p></h5>
+                <h5><p><Link to='About'>Education</Link></p></h5>
+                <h5><p><Link to='About'>Skills</Link></p></h5>
+                <h5><p><Link to='About'>Experience</Link></p></h5>
+                <h5><p><Link to='fff'>Timeline</Link></p></h5>
+
               </li>
             </div>
             <div className='portline'>
-              <h4><p><a href="#top">Portfolio</a></p></h4>
+              <h4><p><a href="Work">Portfolio</a></p></h4>
               <li>
-                <h5><p><a href="#top">Frontend </a></p></h5>
-                <h5><p><a href="#top">Graphics Design</a></p></h5>
-                <h5><p><a href="#top">Discord dev</a></p></h5>
-              </li>
-            </div>
-            <div className='blogline'>
-              <h4><p><a href="#top">Blogs</a></p></h4>
-              <li>
-                <h5><p><a href="#top">Blog page</a></p></h5>
+                <h5><p><Link to='fff'>Frontend </Link></p></h5>
+                <h5><p><Link to='fff'>Graphics Design</Link></p></h5>
+                <h5><p><Link to='fff'>Discord dev</Link></p></h5>
               </li>
             </div>
             <div className='reline'>
-              <h4><p><a href="#top">Reviews</a></p></h4>
+              <h4><p><Link to='Review'>Reviews</Link></p></h4>
               <li>
-                <h5><p><a href="#top">All reviews</a></p></h5>
+                <h5><p><Link to='fff'>All reviews</Link></p></h5>
+              </li>
+            </div>
+            <div className='blogline'>
+              <h4><p><Link to='fff'>Blogs</Link></p></h4>
+              <li>
+                <h5><p><Link to='fff'>Blog page</Link></p></h5>
               </li>
             </div>
           </div>

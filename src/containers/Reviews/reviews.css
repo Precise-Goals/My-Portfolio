@@ -1,0 +1,7 @@
+.announcement h1{
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 175%;
+    font-weight: 800;
+    padding: 2rem 31%;
+}
