@@ -1,7 +1,7 @@
-import React from 'react'
-import './footer.css'
+import React from 'react';
+import './footer.css';
 import { FaGithub, FaLinkedin, FaYoutube, FaDiscord, FaCubes, FaInstagram, FaSpotify, FaPaperPlane } from 'react-icons/fa';
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
 const Footer = () => {
   return (
     <div className='Footeract'>
@@ -14,20 +14,20 @@ const Footer = () => {
           </div>
           <div className='colright'>
             <div className='Homeline'>
-              <h4><p><a href="top">Home</a></p></h4>
+              <h4><p><Link to='top' spy={true} smooth={true} offset={-100} duration={300} delay={0}>Home</Link></p></h4>
             </div>
             <div className='Aline' >
-            <h4><p><a href="Work">About</a></p></h4>
+            <h4><p><Link to='Work' spy={true} smooth={true} offset={-100} duration={300} delay={0}>About</Link></p></h4>
               <li>
-                <h5><p><Link to='About'>Education</Link></p></h5>
-                <h5><p><Link to='About'>Skills</Link></p></h5>
-                <h5><p><Link to='About'>Experience</Link></p></h5>
+                <h5><p><Link to='About' spy={true} smooth={true} offset={-100} duration={300} delay={0}>Education</Link></p></h5>
+                <h5><p><Link to='About' spy={true} smooth={true} offset={-100} duration={300} delay={0}>Skills</Link></p></h5>
+                <h5><p><Link to='About' spy={true} smooth={true} offset={-100} duration={300} delay={0}>Experience</Link></p></h5>
                 <h5><p><Link to='fff'>Timeline</Link></p></h5>
 
               </li>
             </div>
             <div className='portline'>
-              <h4><p><a href="Work">Portfolio</a></p></h4>
+              <h4><p><Link to='Work' spy={true} smooth={true} offset={-25} duration={300} delay={0}>Portfolio</Link></p></h4>
               <li>
                 <h5><p><Link to='fff'>Frontend </Link></p></h5>
                 <h5><p><Link to='fff'>Graphics Design</Link></p></h5>
@@ -35,13 +35,13 @@ const Footer = () => {
               </li>
             </div>
             <div className='reline'>
-              <h4><p><Link to='Review'>Reviews</Link></p></h4>
+              <h4><p><Link to='Review' spy={true} smooth={true} offset={-150} duration={300} delay={0}>Reviews</Link></p></h4>
               <li>
                 <h5><p><Link to='fff'>All reviews</Link></p></h5>
               </li>
             </div>
             <div className='blogline'>
-              <h4><p><Link to='fff'>Blogs</Link></p></h4>
+              <h4><p><Link to='Review' spy={true} smooth={true} offset={-150} duration={300} delay={0}>Blogs</Link></p></h4>
               <li>
                 <h5><p><Link to='fff'>Blog page</Link></p></h5>
               </li>
