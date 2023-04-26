@@ -1,0 +1,213 @@
+.setion__margin {
+  margin: 3rem 0.111rem;
+  background-color: #000000;
+}
+.workord {
+  margin: 0 0;
+}
+
+/* .mid-part h1{
+    color: #fff;
+    font-family: var(--font-family);
+} */
+.mid-part {
+  padding: 1% 5% 0% 5%;
+}
+.bar {
+  color: #fff;
+  background: #fff;
+  content: " ";
+  height: 195px;
+  width: 13px;
+}
+.workdef {
+  padding: 0 0;
+  display: flex;
+  flex-direction: row;
+}
+.workdef div {
+  color: #fff;
+  border-radius: 4px;
+  font-family: var(--font-family);
+}
+.workdef h1 {
+  color: #fff;
+  font-size: 360%;
+  font-family: var(--font-family);
+  font-weight: 800;
+  cursor: context-menu;
+  padding: 0 2%;
+}
+.workdef p {
+  color: azure;
+  padding: 0% 40% 1% 3%;
+  filter: drop-shadow(0px 0px 0px white);
+  font-weight: 600;
+  font-size: 101%;
+  font-family: var(--font-family);
+}
+.worknav li a {
+  font-size: larger;
+}
+.Charts {
+  padding: 0;
+  position: relative;
+  top: -2rem;
+  box-shadow: 0rem 0rem 186rem #4b008267;
+  right: -10rem;
+  border-radius: 20rem;
+}
+.fidbtm1,
+.fidbtm2,
+.fidbtm3 {
+  background-color: #00000005;
+  border: 3px solid rgb(155, 117, 195);
+  max-width: 82%;
+  background-size: cover;
+  text-align: center;
+  max-height: 91px;
+  border-radius: 8px;
+  align-items: center;
+  display: grid;
+  text-decoration: none;
+  margin-bottom: 0%;
+  justify-items: center;
+  position: relative;
+  justify-content: center;
+  transition: 0.6s;
+  z-index: 1;
+}
+.fidbtm1 a,
+.fidbtm2 a,
+.fidbtm3 a {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  min-width: 270px;
+  letter-spacing: 0.03em;
+  position: relative;
+  min-height: 110px;
+  text-align: center;
+  padding: 10% 0% 0% 0%;
+  transition: 0.6s;
+  z-index: 2;
+}
+.fidbtm1 {
+  background-image: url(../../../src/assests/resources/1.png);
+}
+.fidbtm2 {
+  background-image: url(../../../src/assests/resources/2.png);
+}
+.fidbtm3{
+  background-image: url(../../../src/assests/resources/3.png);
+}
+.fidbtm1:hover,
+.fidbtm2:hover,
+.fidbtm3:hover {
+  animation-name: backchange;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.fidbtm1 a:hover,
+.fidbtm2 a:hover,
+.fidbtm3 a:hover {
+  animation-name: backchange;
+  animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* @keyframes backchange {
+  0% {
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+  }
+  50% {
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-size: 110%;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+  }
+  100% {
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+  }
+} */
+.workfids img {
+  display: inline-block;
+  z-index: 1;
+}
+.workfids {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  grid-gap: 10%;
+  padding: 2% 13% 2% 10%;
+  margin: 0% 0% 0% 1%;
+}
+.workfids li {
+  background-color: #fff;
+  list-style: none;
+}
+.worknav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.worknav li a p {
+  color: #fff;
+  font-family: trebuchet ms, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+  position: relative;
+  transition: 0.8s;
+}
+.worknav li a p::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background: #ae7cec;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  margin: 0;
+  transition: 0.8s;
+}
+.worknav li a p:hover::after {
+  width: 100%;
+}
+.buttons {
+  padding: 0;
+  display: grid;
+  grid-row-gap: 3%;
+  filter: drop-shadow(0px 12px 23rem purple);
+  align-items: start;
+  justify-content: start;
+  align-content: center;
+}
+.worknav li a p:hover {
+  transform: translateX(6px);
+}
