@@ -3,12 +3,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5rem;
-    background-color: #000000b5;
+    background-color: #00000000;
 }
 .pg__navbar-links_logo{
     width: 40%;
     margin-right: -40%;
 }
+
 .pg__navbar-sign {
     display: flex;
     justify-content: flex-end;
@@ -119,7 +120,6 @@
 
 .pg__navbar-links_logo img{
     width: 27%;
-    cursor: pointer;
 }
 .pg__navbar-menu{
     display: none;
@@ -178,6 +178,13 @@
     transform: translateX(-4px);
 }
 
+.yay{
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+    filter: brightness(0.5);
+}
 @media screen and (max-width: 1050px) {
     .pg__navbar-links_container{
         display: none;

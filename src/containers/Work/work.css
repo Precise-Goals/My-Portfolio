@@ -1,6 +1,8 @@
 .setion__margin {
   margin: 3rem 0.111rem;
+  z-index: -3;
   background-color: #000000;
+  position: relative;
 }
 .workord {
   margin: 0 0;

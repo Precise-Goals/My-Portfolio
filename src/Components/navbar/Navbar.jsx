@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 import { Link } from 'react-scroll';
+
 import './navbar.css';
+import vidbg from '../../assests/resources/pexels-ingrid-north-4478322-1920x1080-25fps.mp4'
 import logo from '../../assests/resources/smphbg-removebg-preview.png'
 
 const Menu = () => {
@@ -18,12 +20,12 @@ const Navbar = () => {
 
   return (
     <div className='pg__navbar' id='top'>
-      <div className='pg__navbar-links'> 
+      <div className='pg__navbar-links'>
         <div className='pg__navbar-links_logo'>
-          
+
           <Link to="top" spy={true} smooth={true} offset={-100} duration={300} delay >
             <img src={logo} alt="logo" />
-            </Link>
+          </Link>
         </div>
         <div className='pg__navbar-links_container'>
           <p><Link to="top" spy={true} smooth={true} offset={-100} duration={300} delay={0}>Home</Link></p>
@@ -34,6 +36,9 @@ const Navbar = () => {
           < Menu />
         </div>
       </div>
+      <video loop autoPlay muted playsInline className='yay'>
+        <source src={vidbg} />
+      </video>
       <div className="pg__navbar-sign">
         <p>Sign in</p>
         <button type="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScpBHpTE__JlvC-cK2gRjS5ZIMIZryHYbtLY27UmNAMBpVGIw/viewform" target="_blank" rel="noreferrer">Contact</a></button>
