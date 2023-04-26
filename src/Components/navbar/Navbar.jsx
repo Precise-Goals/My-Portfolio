@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className='pg__navbar' id='top'>
-      <div className='pg__navbar-links'>
+      <div className='pg__navbar-links'> 
         <div className='pg__navbar-links_logo'>
           
           <Link to="top" spy={true} smooth={true} offset={-100} duration={300} delay >
