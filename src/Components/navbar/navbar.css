@@ -183,7 +183,7 @@
     bottom: 0;
     z-index: -1;
     position: absolute;
-    filter: brightness(0.5);
+    filter: brightness(0.69);
 }
 @media screen and (max-width: 1050px) {
     .pg__navbar-links_container{
