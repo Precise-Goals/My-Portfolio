@@ -1,11 +1,12 @@
 .setion__margin {
   margin: 3rem 0.111rem;
-  z-index: -3;
-  background-color: #000000;
+  z-index: 1;
+  background-color: var(--gradient__bg);
   position: relative;
 }
 .workord {
   margin: 0 0;
+  background: radial-gradient(circle at 45% -23%, #3a2759 10%, #000000 100%);
 }
 
 /* .mid-part h1{
@@ -58,6 +59,7 @@
   box-shadow: 0rem 0rem 186rem #4b008267;
   right: -10rem;
   border-radius: 20rem;
+  cursor: pointer;
 }
 .fidbtm1,
 .fidbtm2,
