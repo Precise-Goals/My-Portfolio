@@ -3,7 +3,7 @@ import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 import { Link } from 'react-scroll';
 
 import './navbar.css';
-import vidbg from '../../assests/resources/pexels-ingrid-north-4478322-1920x1080-25fps (1) (1).mp4'
+import vidbg from '../../assests/resources/vidbg.mp4'
 import logo from '../../assests/resources/smphbg-removebg-preview.webp'
 
 const Menu = () => {
@@ -28,11 +28,11 @@ const Navbar = () => {
           </Link>
         </div>
         <div className='pg__navbar-links_container'>
-          <p><Link to="top" spy={true} smooth={true} offset={-100} duration={300} delay={0}>Home</Link></p>
-          <p><Link to="About" spy={true} smooth={true} offset={-100} duration={300} delay={0}>About</Link></p>
-          <p><Link to="Work" spy={true} smooth={true} offset={-25} duration={300} delay={0}>Work</Link></p>
-          <p><Link to="Review" spy={true} smooth={true} offset={-150} duration={300} delay={0}>Reviews</Link></p>
-          <p><Link to="Contact" spy={true} smooth={true} offset={-100} duration={300} delay={0}>Contact</Link></p>
+          <p><Link to="top" spy={true} smooth={true} offset={-100} duration={300} delay={-1}>Home</Link></p>
+          <p><Link to="About" spy={true} smooth={true} offset={-100} duration={300} delay={-1}>About</Link></p>
+          <p><Link to="Work" spy={true} smooth={true} offset={25} duration={300} delay={-1}>Work</Link></p>
+          <p><Link to="Review" spy={true} smooth={true} offset={-150} duration={300} delay={-1}>Reviews</Link></p>
+          <p><Link to="Contact" spy={true} smooth={true} offset={-100} duration={300} delay={-1}>Contact</Link></p>
           < Menu />
         </div>
       </div>
