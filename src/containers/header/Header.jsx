@@ -2,7 +2,12 @@ import React from 'react'
 import './header.css'
 import Precise from '../../assests/resources/Cheers-removebg-preview.webp'
 import PreciseM from '../../assests/resources/smph.webp'
-import { instagram, github, replit, discord, linked } from '../../containers/header/imports';
+import instagram from '../../assests/resources/brand1.webp'
+import github from '../../assests/resources/brand2.webp'
+import replit from '../../assests/resources/brand3.webp'
+import discord from '../../assests/resources/brand4.webp'
+import linked from '../../assests/resources/brand5.webp'
+// import youtube from '../../assests/resources/brand6.webp'
 const Header = () => (
   <div className='pg__header1'id='Home'>
     <div className="pg__header " id="home">
