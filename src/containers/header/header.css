@@ -7,7 +7,7 @@
 .pg__header {
     display: flex;
     flex-direction: row;
-    padding: 1.4rem 6.5rem;
+    padding: 0.6rem 6.5rem;
 }
 
 .pg__header-content {
@@ -131,8 +131,7 @@
 }
 
 .pg__header-image img{
-    width: 26rem;
-    height: auto;
+    
     margin: 1% 2% 12% 33%;
     filter: drop-shadow(4px 3px 60px black);
 }

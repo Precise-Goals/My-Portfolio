@@ -15,7 +15,6 @@
     justify-content: center;
 }
 .pg__brand div img{
-    width: 9rem;
-    height: auto;
     filter: opacity(5);
+    padding:0rem 0rem 3rem; ;
 }
