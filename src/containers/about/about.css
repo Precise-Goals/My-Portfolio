@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
 
-
   /* background: var(--color-footer);
 
   background: -moz-radial-gradient(
@@ -42,14 +41,13 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
   background-image: url(../../../src/assests/resources/gfx.webp);
   background-size: cover;
-  
 }
-.stion__margin{
+.stion__margin {
   margin: 5rem 2rem;
   z-index: -2;
   position: relative;
 }
-.overlay{
+.overlay {
   background-color: #0000005e;
   padding: 2rem;
   overflow-x: hidden;
@@ -57,7 +55,7 @@
 .pg__about-feature {
   display: flex;
 }
-.CHART{
+.CHART {
   position: relative;
   max-height: 271px;
   top: -5rem;
@@ -78,25 +76,24 @@
 
 .pg__about-heading {
   display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1rem 1rem 4rem;
-    position: relative;
-    flex-wrap: nowrap;
-   
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 1rem 4rem;
+  position: relative;
+  flex-wrap: nowrap;
 }
 
 .pg__about-heading h1 {
   font-size: 330%;
-    line-height: 70px;
-    margin-left: 4rem;
-    cursor: context-menu;
-    filter: drop-shadow(0px 0px 39px black);
-    margin-top: 4rem;
-    letter-spacing: -0.2px;
-    font-weight: 900;
-    font-family: var(--font-family);
-    max-width: 45%;
+  line-height: 70px;
+  margin-left: 4rem;
+  cursor: context-menu;
+  filter: drop-shadow(0px 0px 39px black);
+  margin-top: 4rem;
+  letter-spacing: 0.009em;
+  font-weight: 900;
+  font-family: tahoma, sans-serif;
+  max-width: 45%;
 }
 
 .pg__about-heading p {
@@ -109,11 +106,11 @@
 }
 
 .pg__about-container {
-    display: grid;
-    margin: 5rem 0rem 0rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 6%;
-    cursor: context-menu;
+  display: grid;
+  margin: 5rem 0rem 0rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 6%;
+  cursor: context-menu;
 }
 
 /* Customizing feature component as per needs */
@@ -139,12 +136,11 @@
   margin: 0% 1%;
   cursor: context-menu;
 }
-.CHART img{
+.CHART img {
   z-index: 3;
   width: 85%;
-    margin: 0% 5%;
+  margin: 0% 5%;
 }
-
 
 @media screen and (max-width: 850px) {
   .pg__about-heading {

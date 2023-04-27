@@ -31,23 +31,26 @@
 .workdef div {
   color: #fff;
   border-radius: 4px;
-  font-family: var(--font-family);
+  
 }
 .workdef h1 {
   color: #fff;
   font-size: 360%;
-  font-family: var(--font-family);
+  font-family: cursive;
   font-weight: 800;
   cursor: context-menu;
   padding: 0 2%;
 }
 .workdef p {
+ 
   color: azure;
   padding: 0% 40% 1% 3%;
   filter: drop-shadow(0px 0px 0px white);
   font-weight: 600;
+  line-height: 130%;
   font-size: 101%;
-  font-family: var(--font-family);
+  font-family: manrope,sans-serif;
+
 }
 .worknav li a {
   font-size: larger;

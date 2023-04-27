@@ -12,18 +12,18 @@ const Header = () => (
 
       </div>
       <div className="pg__header-image">
-        <img src={Precise} alt="PreiceGoals" />
+        <img src={Precise} alt="PreiceGoals" width="26rem" height="auto"/>
       </div>
       <div className="pg__header-imageM">
         <img src={PreciseM} alt="PreiceGoals" />
       </div>
     </div>
     <div className='pg__brand '>
-      <div><img src={instagram} alt="instagram" /></div>
-      <div><img src={github} alt="github" /></div>
-      <div><img src={replit} alt="replit" /></div>
-      <div><img src={discord} alt="discord" /></div>
-      <div><img src={linked} alt="linked" /></div>
+      <div><img src={instagram} alt="instagram" width="9rem" height="auto"/></div>
+      <div><img src={github} alt="github" width="9rem" height="auto"/></div>
+      <div><img src={replit} alt="replit" width="9rem" height="auto"/></div>
+      <div><img src={discord} alt="discord" width="9rem" height="auto"/></div>
+      <div><img src={linked} alt="linked" width="9rem" height="auto"/></div>
       {/* <div><img src={youtube} alt="youtube" /></div> */}
     </div>
   </div>
