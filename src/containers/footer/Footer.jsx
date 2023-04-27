@@ -18,6 +18,7 @@ const Footer = () => {
             </div>
             <div className='Aline' >
             <h4><p><Link to='About' spy={true} smooth={true} offset={-100} duration={300} delay={0}>About</Link></p></h4>
+            <ul>
               <li>
                 <h5><p><Link to='About' spy={true} smooth={true} offset={-100} duration={300} delay={0}>Education</Link></p></h5>
                 <h5><p><Link to='About' spy={true} smooth={true} offset={-100} duration={300} delay={0}>Skills</Link></p></h5>
@@ -25,26 +26,33 @@ const Footer = () => {
                 <h5><p><Link to='fff'>Timeline</Link></p></h5>
 
               </li>
+              </ul>
             </div>
             <div className='portline'>
               <h4><p><Link to='Work' spy={true} smooth={true} offset={-25} duration={300} delay={0}>Portfolio</Link></p></h4>
+              <ul>
               <li>
                 <h5><p><Link to='fff'>Frontend </Link></p></h5>
                 <h5><p><Link to='fff'>Graphics Design</Link></p></h5>
                 <h5><p><Link to='fff'>Discord dev</Link></p></h5>
               </li>
+              </ul>
             </div>
             <div className='reline'>
               <h4><p><Link to='Review' spy={true} smooth={true} offset={-150} duration={300} delay={0}>Reviews</Link></p></h4>
+              <ul>
               <li>
                 <h5><p><Link to='fff'>All reviews</Link></p></h5>
               </li>
+              </ul>
             </div>
             <div className='blogline'>
               <h4><p><Link to='Review' spy={true} smooth={true} offset={-150} duration={300} delay={0}>Blogs</Link></p></h4>
+              <ul>
               <li>
                 <h5><p><Link to='fff'>Blog page</Link></p></h5>
               </li>
+              </ul>
             </div>
           </div>
         </div>

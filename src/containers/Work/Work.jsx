@@ -12,9 +12,11 @@ const Work = () => {
       <div className='workord' id='Work'>
         <div className='mid-part'>
           <div className='worknav'>
-            <li><a href='#fff'><p>Blogs</p></a></li>
-            <li><Link to="Review" spy={true} smooth={true} offset={-150} duration={300} delay={0}><p>Reviews</p></Link></li>
-            <li><Link to="Contact" spy={true} smooth={true} offset={-100} duration={300} delay={0}><p>Contact</p></Link></li>
+            <ul>
+              <li><a href='#fff'><p>Blogs</p></a></li>
+              <li><Link to="Review" spy={true} smooth={true} offset={-150} duration={300} delay={0}><p>Reviews</p></Link></li>
+              <li><Link to="Contact" spy={true} smooth={true} offset={-100} duration={300} delay={0}><p>Contact</p></Link></li>
+            </ul>
           </div>
           <div className='workdef'>
             <div className='bar'></div>
