@@ -1,5 +1,5 @@
 import React from 'react';
-import Feature from '../../Components/feature/Feature';
+import Feature from '../../Components/feature/Feature.jsx';
 import './about.css';
 // import Chert from "../../Components/chart/Chart.tsx"
 // import Photu from '../../assests/resources/jkboi.png'
