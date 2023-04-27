@@ -22,11 +22,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
+  "eslintIgnore": [
+    "node_modules",
+    "build/*"],
   "browserslist": {
     "production": [
       ">0.2%",
@@ -44,4 +44,5 @@
     "react-icons": "^4.8.0",
     "typescript": "^5.0.4"
   }
+  
 }
