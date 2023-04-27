@@ -40,6 +40,8 @@
     ]
   },
   "devDependencies": {
-    "react-icons": "^4.8.0"
+    "@typescript-eslint/parser": "^5.59.1",
+    "react-icons": "^4.8.0",
+    "typescript": "^5.0.4"
   }
 }
