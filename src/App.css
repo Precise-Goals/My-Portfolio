@@ -20,6 +20,7 @@ body::-webkit-scrollbar {
 
 a {
   color: unset;
+  font-family: tahoma;
   text-decoration: none;
 }
 
