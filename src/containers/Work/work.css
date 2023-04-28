@@ -172,7 +172,7 @@
   background-color: #fff;
   list-style: none;
 }
-.worknav {
+.worknav ul{
   list-style: none;
   display: flex;
   flex-direction: row;
