@@ -16,10 +16,10 @@
 
 .pg__features-container__feature-title h1 {
   font-family: var(--font-family);
-  font-weight: 800;
+  font-weight: 700;
   font-size: 25px;
   line-height: 30px;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.0099em;
   overflow-y:hidden ;
   color: #fff;
 }
@@ -44,8 +44,8 @@
   display: flex;
 }
 .pg__features-container_feature-text p {
-  font-family: var(--font-family);
-  font-weight: 700;
+  font-family: tahoma;
+  font-weight: 500;
   font-size: 15px;
   line-height: 24px;
   color: #00ffce;
