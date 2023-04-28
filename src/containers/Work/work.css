@@ -51,7 +51,7 @@
   font-family: manrope,sans-serif;
 
 }
-.worknav li a {
+.worknav ul li a {
   font-size: larger;
 }
 .Charts {
@@ -178,7 +178,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.worknav li a p {
+.worknav ul li a p {
   color: #fff;
   font-family: trebuchet ms, sans-serif;
   font-weight: 600;
@@ -190,7 +190,7 @@
   position: relative;
   transition: 0.8s;
 }
-.worknav li a p::after {
+.worknav ul li a p::after {
   content: "";
   width: 0%;
   height: 3px;
@@ -202,7 +202,7 @@
   margin: 0;
   transition: 0.8s;
 }
-.worknav li a p:hover::after {
+.worknav ul li a p:hover::after {
   width: 100%;
 }
 .buttons {
