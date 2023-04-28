@@ -10,7 +10,7 @@
 }
 
 body {
-  background: url(../src/assests/resources/app.webp);
+  background:#000000;
   scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
