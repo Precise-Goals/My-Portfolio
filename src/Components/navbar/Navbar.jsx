@@ -57,7 +57,7 @@ const Navbar = () => {
               <p><Link to="Contact" spy={true} smooth={true} offset={-100} duration={300} delay={0}>Contact</Link></p>
               <div className="pg__navbar-menu_container-links-sign">
                 <p><a href="#top">Sign in</a></p>
-                <button type="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScpBHpTE__JlvC-cK2gRjS5ZIMIZryHYbtLY27UmNAMBpVGIw/viewform" target="_blank" rel="noreferrer">Contact</a></button>
+                <button type="button"><a href="https://precise-forms.pages.dev/" target="_blank" rel="noreferrer">Contact</a></button>
               </div>
             </div>
           </div>)}
