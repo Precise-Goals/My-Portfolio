@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         <div className='row2'>
           <div className='btmm'>
-            <button  type="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScpBHpTE__JlvC-cK2gRjS5ZIMIZryHYbtLY27UmNAMBpVGIw/viewform" rel="noreferrer">Contact</a></button>
+            <button  type="button"><a href="https://precise-forms.pages.dev/" rel="noreferrer">Contact</a></button>
             <button  type="button"><a href="https://drive.google.com/file/d/1couPYcVrc57htp0vURpnQG4Xa2x5S21L/view?usp=share_link"  rel="noreferrer">Download my Cv</a></button>
           </div>
         </div>
