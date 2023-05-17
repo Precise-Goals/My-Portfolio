@@ -4,7 +4,7 @@ import "./reviews.css";
 const Reviews = () => {
   return (
     <div id="Review" className="reviews">
-      <h1>Uploading Reviews and Blogs Section very Soon . . . . </h1>
+      <h1>Uploading Reviews Section very Soon . . . . </h1>
     </div>
   );
 };
