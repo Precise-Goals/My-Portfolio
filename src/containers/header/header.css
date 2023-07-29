@@ -40,7 +40,7 @@
 .written span {
     font-size: 69%;
     letter-spacing: 0.095em;
-    filter: drop-shadow(0px 0px 7px black);
+    filter: drop-shadow(-2px 4px 19px black);
 }
 
 .written span span {

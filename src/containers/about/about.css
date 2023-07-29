@@ -1,0 +1,75 @@
+.Abouttitle {
+    color: white;
+    font-family: 'oxymoron';
+    text-align: center;
+    font-size: 300%;
+    line-height: 160%;
+    margin: 10% 0rem 1%;
+}
+
+.Abouttitle span {
+    font-size: 130%;
+}
+
+.horiembed {
+    width: 60%;
+    height: 6px;
+    background: linear-gradient(89.97deg, #e80b7d 16.484%, #2f17dbe6 102.67%);
+    align-self: center;
+    margin-bottom: 3%;
+    border-radius: 4rem;
+}
+
+.page-about-heading {
+    max-width: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.tab-buttons {
+    display: flex;
+    column-gap: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 30%;
+}
+.page-about-container {
+    width: 40%;
+    background: transparent;
+    margin: 2%;
+    border-radius: 2rem;
+    border: 3px #fff solid;
+    padding: 2% 1%;
+}
+.tab-buttons button {
+    font-family: 'baloo2';
+    font-weight: 600;
+    padding: 0.5% 7.5%;
+    font-size: 130%;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 2rem;
+    color: #fff;
+    border: 2px white solid;
+    transition: 0.3s;
+}
+.tab-buttons button:hover{
+    background-color: white;
+    filter: drop-shadow(0 0 4px white);
+    color: black;
+}
+.tab-buttons button.active{
+    background-color: rgb(219 198 226);
+    filter: drop-shadow(0 0 47px white);
+    color: black;
+}

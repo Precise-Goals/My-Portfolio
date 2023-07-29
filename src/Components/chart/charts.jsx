@@ -125,7 +125,7 @@ const RenderActiveShape = (props) => {
     useEffect(() => {
       const interval = setInterval(() => {
         setActiveIndex((prevIndex) => (prevIndex + 1) % data.length);
-      }, 1500);
+      }, 3000);
   
       return () => clearInterval(interval);
     }, []);
