@@ -1,7 +1,7 @@
 import React from 'react'
 import './work.css'
 import { Link } from 'react-scroll'
-import Chart from "../../../src/Components/chart/Chart.tsx"
+import Chart from '../../Components/chart/charts'
 // import frnt from '../../assests/resources/1.png'
 // import gfx from '../../assests/resources/2.png'
 // import disc from '../../assests/resources/3.png'

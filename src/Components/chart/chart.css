@@ -1,0 +1,12 @@
+.recharts-pie .recharts-sector:hover {
+    stroke: none;
+    cursor: pointer;
+  }
+.recharts-pie.active .recharts-sector.active{
+    stroke: none;
+    cursor: pointer;
+}
+.chart-sector {
+    transition: fill 0.3s, transform 0.3s;
+  }
+  

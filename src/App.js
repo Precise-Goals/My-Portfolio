@@ -2,7 +2,7 @@ import React from 'react'
 import { Work, Footer,About , Header, Reviews, } from './containers'
 import { Navbar } from "./Components";
 import './App.css'
-
+import './fonts.css'
 const App = () => {
   
 
