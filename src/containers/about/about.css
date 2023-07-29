@@ -48,6 +48,7 @@
     background: transparent;
     margin: 2%;
     border-radius: 2rem;
+    height: 23rem;
     border: 3px #fff solid;
     padding: 2% 1%;
 }
@@ -65,11 +66,76 @@
 }
 .tab-buttons button:hover{
     background-color: white;
-    filter: drop-shadow(0 0 4px white);
+    filter: drop-shadow(0 0 14px gray);
     color: black;
 }
 .tab-buttons button.active{
     background-color: rgb(219 198 226);
-    filter: drop-shadow(0 0 47px white);
+    filter: drop-shadow(0 0 50px white);
     color: black;
+}
+.img img{
+    width: 2.87rem;
+    border-radius: 10px;
+    height: auto;
+    margin: 3px 5px;
+}
+.siximg{
+    column-gap: 0.35rem;
+    display: flex;
+    flex-direction: row;
+}
+.fourimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.35rem;
+    justify-content: center;
+}
+.imgs {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-radius: 11px;
+    margin: 3rem 3rem 0;
+    border: 3px solid;
+    filter: drop-shadow(0px 0px 104px #fb0090);
+    justify-content: center;
+    border-color: #e74c78;
+}
+.fourimg a,.siximg a{
+    display: flex;
+    margin:0 0.3rem;
+}
+.img{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.aboutpage {
+    margin: 2rem 0rem;
+}
+
+.exp img {
+    width: 36%;
+    justify-self: center;
+    align-self: center;
+}
+
+.exp {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.education img {
+    width: 15rem;
+    align-self: center;
+    justify-self: center;
+    margin-top: 2rem;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
 }
