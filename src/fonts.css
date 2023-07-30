@@ -1,9 +1,11 @@
 @font-face {
     font-family: baloo2;
     src: url(../src/assets/fonts/Baloo2-VariableFont_wght.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: oxymoron;
     src: url(../src/assets/fonts/Oxanium-VariableFont_wght.ttf);
+    font-display: swap;
 }
