@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 import './navbar.css';
-import vidbg from '../../assets/resources/vidbg1.mp4';
+import vidbg from '../../assets/resources/vidbg.mp4';
 import logo from '../../assets/resources/navlogo.png';
 
 const menuLinks = [
