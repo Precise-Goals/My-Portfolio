@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className='filters'>
         <div className='navlogo'>
           <Link to="top" spy={true} smooth={true} offset={-100} duration={300} delay >
-            <img src={logo} alt="logo" width="160px" height="100px" />
+            <img src={logo} alt="logo" loading="lazy" width="160px" height="100px" />
           </Link>
         </div>
         <div className='linktabs'>

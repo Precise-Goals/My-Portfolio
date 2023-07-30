@@ -70,7 +70,7 @@ const About = () => {
               <Feature
                 text="I completed my secondary education in 2022 and am now preparing for JEE while also juggling my hobbies and passions for studies and programming. I am dedicated to both my academic pursuits and my personal interests, striving to excel in all areas of my life."
               />
-              <img width="250" height="165" src={education} alt="education" />
+              <img loading="lazy" width="250" height="165" src={education} alt="education" />
             </div>
           )}
           {activeTab === 'skills' && (
@@ -80,18 +80,18 @@ const About = () => {
               />
               <div className="imgs" >
                 <div className="siximg">
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><div className="img"><img width="4rem" height="4rem" src={javascript} alt="Javascript" /></div></a>
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><div className="img"><img width="4rem" height="4rem" src={html} alt="HTML 5" /></div></a>
-                  <a href="https://reactjs.org/"><div className="img"><img width="4rem" height="4rem" src={reactnative} alt="React Js" /></div></a>
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><div className="img"><img width="4rem" height="4rem" src={styles} alt="CSS" /></div></a>
-                  <a href="https://www.python.org/"><div className="img"><img width="4rem" height="4rem" src={python} alt="Python" /></div></a>
-                  <a href="https://nodejs.org/"><div className="img"><img width="4rem" height="4rem" src={nodejs} alt="Node Js" /></div></a>
-                </div>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={javascript} alt="Javascript" /></div></a>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={html} alt="HTML 5" /></div></a>
+                  <a href="https://reactjs.org/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={reactnative} alt="React Js" /></div></a>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={styles} alt="CSS" /></div></a>
+                  <a href="https://www.python.org/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={python} alt="Python" /></div></a>
+                  <a href="https://nodejs.org/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={nodejs} alt="Node Js" /></div></a>
+                </div> loading="lazy"
                 <div className="fourimg">
-                  <a href="https://discord.js.org/"><div className="img"><img width="4rem" height="4rem" src={discord} alt="Discord.js" /></div></a>
-                  <a href="https://www.canva.com/"><div className="img"><img width="4rem" height="4rem" src={canva} alt="Canva" /></div></a>
-                  <a href="https://www.cplusplus.com/"><div className="img"><img width="4rem" height="4rem" src={compiler} alt="C++" /></div></a>
-                  <a href="https://www.adobe.com/products/photoshop.html"><div className="img"><img width="4rem" height="4rem" src={ps} alt="PhotoShop" /></div></a>
+                  <a href="https://discord.js.org/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={discord} alt="Discord.js" /></div></a>
+                  <a href="https://www.canva.com/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={canva} alt="Canva" /></div></a>
+                  <a href="https://www.cplusplus.com/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={compiler} alt="C++" /></div></a>
+                  <a href="https://www.adobe.com/products/photoshop.html"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={ps} alt="PhotoShop" /></div></a>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@ const About = () => {
             <div className="exp"><Feature
               text="I have experience in moderating Discord servers, creating websites, and designing appealing graphics. Through my skills in communication, organization, and creativity, I have successfully provided value to clients in various areas."
             />
-              <img src={handshake} alt="handshake" />
+              <img loading="lazy" src={handshake} alt="handshake" />
             </div>
           )}
         </div>

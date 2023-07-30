@@ -17,11 +17,11 @@ const Header = () => (
           <p>I believe in patience, skills, discipline, and perseverance.</p>
         </div>
         <div className="imagecontent">
-          <div><img src={instagram} alt="Instagram Logo" width="125" height="25" /></div>
-          <div><img src={github} alt="GitHub Logo" width="125" height="25" /></div>
-          <div><img src={replit} alt="Replit Logo" width="125" height="25" /></div>
-          <div><img src={discord} alt="Discord Logo" width="125" height="25" /></div>
-          <div><img src={linked} alt="LinkedIn Logo" width="125" height="25" /></div>
+          <div><img loading="lazy" src={instagram} alt="Instagram Logo" width="125" height="25" /></div>
+          <div><img loading="lazy" src={github} alt="GitHub Logo" width="125" height="25" /></div>
+          <div><img loading="lazy" src={replit} alt="Replit Logo" width="125" height="25" /></div>
+          <div><img loading="lazy" src={discord} alt="Discord Logo" width="125" height="25" /></div>
+          <div><img loading="lazy" src={linked} alt="LinkedIn Logo" width="125" height="25" /></div>
         </div>
       </div>
     </div>
