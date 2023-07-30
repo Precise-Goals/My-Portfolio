@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './about.css';
+
+import { Particle } from '../../Components';
+
 import Feature from '../../Components/feature/Feature';
 
 import education from '../../assets/resources/education.png'
@@ -25,8 +28,11 @@ const About = () => {
   };
 
   return (
-    <div className="aboutpage">
-      <div className='overlay'>
+    <div className="aboutpage" id='About'>
+      <div className="w-full bottom-0 absolute top-0 left-0">
+        <Particle />
+      </div>
+      <div className='overlay' >
         {/* Section: About Me */}
 
         {/* Section: Heading */}

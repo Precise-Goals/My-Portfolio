@@ -44,7 +44,7 @@
   background: #e0b6ff;
 }
 .linktabs p:hover::after {
-  width: 96%;
+  width: 80%;
 }
 .linktabs p a:hover {
   color: #ffffff;

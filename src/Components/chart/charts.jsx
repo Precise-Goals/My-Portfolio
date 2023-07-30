@@ -12,14 +12,13 @@ const data = [
 ];
 
 const COLORS = [
-  "#8747dd",
-  "#6c00ff",
-  "#0084ff",
-  "#00b2ff",
-  "#00ffef",
-  "#00ff75"
+  "#0df5ff",
+  "#0db6ff",
+  "#0d81ff",
+  "#b58af9",
+  "#ff007d",
+  "#0dffac"
 ];
-
 const RenderActiveShape = (props) => {
     const RADIAN = Math.PI / 180;
     const {

@@ -1,0 +1,109 @@
+.worknav ul {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  column-gap: 12%;
+  align-self: center;
+  justify-content: center;
+}
+
+.worknav ul li a p {
+  font-size: 130%;
+  font-family: "baloo2";
+  color: aliceblue;
+  font-weight: 600;
+  margin: 1rem 0rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.worknav ul li a p:hover {
+  color: #e0b6ff;
+  transform: translateY(2px);
+}
+
+.worknav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  content: "";
+  width: 13rem;
+  height: 7px;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+  border-radius: 5px;
+}
+.workdef h1 {
+  font-size: 275%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin: 0.4% 5rem 0;
+  font-family: "oxymoron";
+  word-spacing: 0.08em;
+  filter: drop-shadow(0px 0px 41px orange);
+}
+.workdef {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem 3rem 0;
+  z-index: 76;
+  position: relative;
+  justify-content: center;
+}
+
+.workdef p {
+  font-size: 120%;
+  color: aliceblue;
+  font-family: "baloo2";
+  text-align: center;
+  width: 60%;
+  margin: 1% 2% 1%;
+  word-spacing: 0.04em;
+  letter-spacing: 0.02em;
+}
+
+.workfids {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  column-gap: 2%;
+  display: flex;
+  flex-direction: row;
+  width: 91%;
+  align-items: center;
+  justify-content: center;
+}
+
+.fidbtm1,
+.fidbtm2,
+.fidbtm3 {
+  background: none;
+  border: 2px solid aliceblue;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 120%;
+  color: #fff;
+  padding: 0.6% 4%;
+  transition: transform 0.3s;
+}
+.buttons button:hover {
+  transform: scale(1.039);
+  background-color: #fff;
+  color: #0b1220;
+  filter: drop-shadow(0px 0px 66px aliceblue);
+  z-index: 89;
+}
+
+.Charts {
+  background: #0b1220;
+  border-radius: 16em;
+  margin: 2rem 0;
+  filter: drop-shadow(0px 0px 20rem indigo);
+  height: auto;
+}

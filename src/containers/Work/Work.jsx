@@ -20,10 +20,8 @@ const Work = () => {
           </div>
           <div className='workdef'>
             <div className='bar'></div>
-            <div>
-              <h1>Work Space</h1>
-              <p>Hello, I am a dynamic and multi-talented individual with expertise in frontend development, UX/UI design, graphic design, and Discord server customization. I showcase my creative designs on my Instagram feed and have successfully managed best quality of work. Out of those, 94% of clients have been thoroughly impressed with my work Check out my work by clicking the buttons below !</p>
-            </div>
+            <h1>My Portfolio</h1>
+            <p>Hello, I am a dynamic and multi-talented individual with expertise in frontend development, UX/UI design, graphic design, and Discord server customization. I showcase my creative designs on my Instagram feed and have successfully managed best quality of work. Out of those, 94% of clients have been thoroughly impressed with my work Check out my work by clicking the buttons below !</p>
           </div>
         </div>
         <div className='workfids'>
