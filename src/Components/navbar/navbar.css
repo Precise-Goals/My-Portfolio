@@ -83,5 +83,5 @@
   height: 100%;
   position: absolute;
   object-fit: cover;
-  filter: brightness(0.9) blur(0.3px) opacity(0.9) contrast(1.4);
+  filter: brightness(0.9112) blur(0.4px) opacity(0.85) contrast(1.4);
 }

@@ -1,146 +1,147 @@
 .Abouttitle {
-    color: white;
-    font-family: 'oxymoron';
-    text-align: center;
-    font-size: 300%;
-    line-height: 160%;
-    margin: 10% 0rem 1%;
+  color: white;
+  font-family: "oxymoron";
+  text-align: center;
+  font-size: 300%;
+  line-height: 160%;
+  margin: 10% 0rem 1%;
 }
 
 .Abouttitle span {
-    font-size: 130%;
+  font-size: 130%;
 }
 
 .horiembed {
-    width: 60%;
-    height: 6px;
-    background: linear-gradient(89.97deg, #e80b7d 16.484%, #2f17dbe6 102.67%);
-    align-self: center;
-    margin-bottom: 3%;
-    border-radius: 4rem;
+  width: 60%;
+  height: 6px;
+  background: linear-gradient(89.97deg, #e80b7d 16.484%, #2f17dbe6 102.67%);
+  align-self: center;
+  margin-bottom: 3%;
+  border-radius: 4rem;
 }
 
 .page-about-heading {
-    max-width: 50%;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 50%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .overlay {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 .tab-buttons {
-    display: flex;
-    background: black;
-    column-gap: 5%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 30%;
+  display: flex;
+  background: black;
+  column-gap: 5%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 30%;
 }
 .page-about-container {
-    width: 40%;
-    background: transparent;
-    margin: 2%;
-    border-radius: 2rem;
-    height: 23rem;
-    background-color: black;
-    border: 3px #fff solid;
-    padding: 2% 1%;
+  width: 40%;
+  background: transparent;
+  margin: 5%;
+  border-radius: 2rem;
+  height: 23rem;
+  background-color: black;
+  border: 3px #ffffffbf solid;
+  padding: 2% 1%;
 }
 .tab-buttons button {
-    font-family: 'baloo2';
-    font-weight: 600;
-    padding: 0.5% 7.5%;
-    font-size: 130%;
-    cursor: pointer;
-    background: transparent;
-    border-radius: 2rem;
-    color: #fff;
-    border: 2px white solid;
-    transition: 0.3s;
+  font-family: "baloo2";
+  font-weight: 600;
+  padding: 0.5% 7.5%;
+  font-size: 130%;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 2rem;
+  color: #fff;
+  border: 2px white solid;
+  transition: 0.3s;
 }
-.tab-buttons button:hover{
-    background-color: white;
-    filter: drop-shadow(0 0 14px gray);
-    color: black;
+.tab-buttons button:hover {
+  background-color: white;
+  filter: drop-shadow(0 0 14px gray);
+  color: black;
 }
-.tab-buttons button.active{
-    background-color: rgb(219 198 226);
-    filter: drop-shadow(0 0 50px white);
-    color: black;
+.tab-buttons button.active {
+  background-color: rgb(219 198 226);
+  filter: drop-shadow(0 0 50px white);
+  color: black;
 }
-.img img{
-    width: 2.87rem;
-    border-radius: 10px;
-    height: auto;
-    margin: 3px 5px;
-    transition: transform 0.2s;
+.img img {
+  width: 2.87rem;
+  border-radius: 10px;
+  height: auto;
+  margin: 3px 5px;
+  transition: transform 0.2s;
 }
-.img img:hover{
-    transform: scale(0.93);
+.img img:hover {
+  transform: scale(0.93);
 }
-.siximg{
-    column-gap: 0.35rem;
-    display: flex;
-    flex-direction: row;
+.siximg {
+  column-gap: 0.35rem;
+  display: flex;
+  flex-direction: row;
 }
-.fourimg{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 0.35rem;
-    justify-content: center;
+.fourimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.35rem;
+  justify-content: center;
 }
 .imgs {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    border-radius: 11px;
-    margin: 3rem 3rem 0;
-    border: 3px solid;
-    filter: drop-shadow(0px 0px 104px #fb0090);
-    justify-content: center;
-    border-color: #e74c78;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border-radius: 11px;
+  margin: 3rem 3rem 0;
+  border: 3px solid;
+  filter: drop-shadow(0px 0px 104px #fb0090);
+  justify-content: center;
+  border-color: #e74c78;
 }
-.fourimg a,.siximg a{
-    display: flex;
-    margin:0 0.3rem;
+.fourimg a,
+.siximg a {
+  display: flex;
+  margin: 0 0.3rem;
 }
-.img{
-    align-self: center;
-    display: flex;
-    justify-content: center;
+.img {
+  align-self: center;
+  display: flex;
+  justify-content: center;
 }
 .aboutpage {
-    margin: 2rem 0rem;
+  margin: 2rem 0rem;
 }
 
 .exp img {
-    width: 36%;
-    justify-self: center;
-    align-self: center;
+  width: 36%;
+  justify-self: center;
+  align-self: center;
 }
 
 .exp {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
 .education img {
-    align-self: center;
-    justify-self: center;
-    margin-top: 2rem;
+  align-self: center;
+  justify-self: center;
+  margin-top: 2rem;
 }
 
 .education {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
