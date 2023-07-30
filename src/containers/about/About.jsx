@@ -70,7 +70,7 @@ const About = () => {
               <Feature
                 text="I completed my secondary education in 2022 and am now preparing for JEE while also juggling my hobbies and passions for studies and programming. I am dedicated to both my academic pursuits and my personal interests, striving to excel in all areas of my life."
               />
-              <img width="250px" src={education} alt="education" />
+              <img width="250" height="auto" src={education} alt="education" />
             </div>
           )}
           {activeTab === 'skills' && (
