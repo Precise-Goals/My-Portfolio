@@ -81,6 +81,10 @@
     border-radius: 10px;
     height: auto;
     margin: 3px 5px;
+    transition: transform 0.2s;
+}
+.img img:hover{
+    transform: scale(0.93);
 }
 .siximg{
     column-gap: 0.35rem;
