@@ -66,7 +66,7 @@ const About = () => {
           {activeTab === 'education' && (
             <div className="education">
               <p>I completed my secondary education in 2022 and am now preparing for JEE while also juggling my hobbies and passions for studies and programming. I am dedicated to both my academic pursuits and my personal interests, striving to excel in all areas of my life.</p>
-              <img loading="lazy" width="250" height="165" src={education} alt="education" />
+              <img loading="lazy" width="250" height="167.79" src={education} alt="education" />
             </div>
           )}
           {activeTab === 'skills' && (
