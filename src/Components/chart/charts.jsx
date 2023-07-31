@@ -7,7 +7,7 @@ const data = [
   { name: "Python", value: 5 },
   { name: "Javascript", value: 6 },
   { name: "Gfx,UI & Ux", value: 15 },
-  { name: "Discord.js", value: 11 },
+  { name: "Discord", value: 11 },
   { name: "Others", value: 1 }
 ];
 
@@ -120,11 +120,6 @@ const Chart = () => {
   const onPieEnter = useCallback((_entry, index) => {
     setActiveIndex(index);
   }, []);
-
-  const onPieLeave = useCallback(() => {
-    setActiveIndex(0);
-  }, []);
-
   // Timer to change the activeIndex every 4 seconds
   useEffect(() => {
     const interval = setInterval(() => {
@@ -151,7 +146,6 @@ const Chart = () => {
         dataKey="value"
         stroke="transparent"
         onMouseEnter={onPieEnter}
-        onMouseLeave={onPieLeave}
       >
         {data.map((entry, index) => (
           <Cell key={`cell-${index}`} fill={memoizedColors[index % memoizedColors.length]} />

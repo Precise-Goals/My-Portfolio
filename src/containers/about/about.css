@@ -148,3 +148,14 @@
   display: flex;
   flex-direction: column;
 }
+.skillcon p,.education p,.exp p{
+    color: #fff;
+    font-size: 135%;
+    font-family: 'baloo2';
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    line-height: 115%;
+    word-spacing: 4px;
+    font-weight: 500;
+}

@@ -30,7 +30,7 @@
   flex-direction: column;
   color: #ffffff;
   cursor: pointer;
-  transition: 0.4s;
+  transition: transform 0.4s;
 }
 .linktabs p::after {
   width: 40%;
@@ -41,7 +41,7 @@
   height: 4px;
   align-self: center;
   text-align: center;
-  background: #e0b6ff;
+  background: #dc2d7bf2;
 }
 .linktabs p:hover::after {
   width: 80%;
@@ -54,7 +54,7 @@
 .linktabs a button {
   color: #fff;
   background: transparent;
-  border: 3px solid #e0b6ff;
+  border: 3px solid #ab004cf2;
   font-size: 115%;
   padding: 5% 9%;
   cursor: pointer;
@@ -65,10 +65,10 @@
   transition: 0.4s;
 }
 .linktabs a button:hover {
-  background-color: #e0b6ff;
-  color: brown;
+  background-color: #ab004cf2;
+  color: white;
   transform: translateX(2px);
-  filter: drop-shadow(0 0 1rem #e1b6ffa3);
+  filter: drop-shadow(0 0 1rem #e00567);
 }
 .linktabs a {
   width: 16%;
