@@ -17,7 +17,7 @@ const Reviews = () => {
             {Reviewdata.map((review) => (
               <div key={review.id} className="review-card">
                 <div className="card">
-                  <img width={60} height={60} src={review.pfp} alt={review.Username} className="avatar" />
+                  <img width={60} height={60} src={review.pfp} alt={review.Username} loading="lazy" className="avatar" />
                   <div className="username">{review.Username}</div>
                 </div>
                 <div className="message">{review.message}</div>
