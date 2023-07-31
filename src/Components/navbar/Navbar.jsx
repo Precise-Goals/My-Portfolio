@@ -7,9 +7,9 @@ import logo from '../../assets/resources/navlogo.png';
 
 const menuLinks = [
   { to: "top", text: "Home", offset: -100 },
-  { to: "About", text: "About", offset: -100 },
+  { to: "About", text: "About", offset: -15 },
   { to: "Work", text: "Work", offset: -25 },
-  { to: "Review", text: "Reviews", offset: -150 },
+  { to: "Review", text: "Reviews", offset: 0 },
   { to: "Contact", text: "Contact", offset: -100 },
 ];
 
