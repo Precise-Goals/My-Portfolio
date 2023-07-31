@@ -106,7 +106,7 @@
   border-radius: 11px;
   margin: 3rem 3rem 0;
   border: 3px solid;
-  filter: drop-shadow(0px 0px 104px #fb0090);
+  box-shadow: 1px -20px 20rem 0px #fb009099;
   justify-content: center;
   border-color: #e74c78;
 }

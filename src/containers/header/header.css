@@ -48,3 +48,9 @@
     letter-spacing: 0.02em;
     color: #e0b6ff;
 }
+.imagecontent div a img{
+    transition: transform ease-in-out 0.3s;
+}
+.imagecontent div a img:hover{
+    transform: scale(0.96);
+}
