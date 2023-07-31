@@ -86,7 +86,7 @@ const About = () => {
                   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={styles} alt="CSS" /></div></a>
                   <a href="https://www.python.org/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={python} alt="Python" /></div></a>
                   <a href="https://nodejs.org/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={nodejs} alt="Node Js" /></div></a>
-                </div> loading="lazy"
+                </div>
                 <div className="fourimg">
                   <a href="https://discord.js.org/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={discord} alt="Discord.js" /></div></a>
                   <a href="https://www.canva.com/"><div className="img"><img loading="lazy" width="4rem" height="4rem" src={canva} alt="Canva" /></div></a>
