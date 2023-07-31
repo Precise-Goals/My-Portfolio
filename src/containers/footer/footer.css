@@ -143,6 +143,7 @@
   display: flex;
   column-gap: 30%;
   flex-direction: row;
+  margin-bottom: 4rem;
 }
 
 .botright {
