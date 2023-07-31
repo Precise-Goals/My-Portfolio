@@ -1,12 +1,21 @@
 .recharts-pie .recharts-sector:hover {
-    stroke: none;
-    cursor: pointer;
-  }
-.recharts-pie.active .recharts-sector.active{
-    stroke: none;
-    cursor: pointer;
+  stroke: none;
+  cursor: pointer;
+}
+.recharts-pie.active .recharts-sector.active {
+  stroke: none;
+  cursor: pointer;
 }
 .chart-sector {
-    transition: fill 0.3s, transform 0.3s;
-  }
-  
+  transition: all 0.3s ease; /* You can adjust the duration and ease as per your preference */
+}
+
+.recharts-wrapper {
+  max-width: 40rem;
+  max-height: 17rem;
+}
+
+svg.recharts-surface {
+  width: 100%;
+  max-height: 17rem;
+}

@@ -26,6 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 3rem 0 0;
 }
 
 .bar {
@@ -91,6 +92,8 @@
   color: #fff;
   padding: 0.6% 4%;
   transition: transform 0.3s;
+  z-index: 3;
+  overflow: hidden;
 }
 .buttons button:hover {
   transform: scale(1.039);
@@ -99,12 +102,17 @@
   filter: drop-shadow(0px 0px 66px aliceblue);
   z-index: 89;
 }
-
 .Charts {
-  background: #161e30;
-  border-radius: 16em;
+  background: #2e0202ad;
+  border-radius: 4rem;
   box-shadow: 0rem 0rem 14rem #a92975b8;
-  margin: 2rem 0;
+  margin: 2rem 0 4rem;
   height: auto;
-  z-index: -43;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border: 3px solid #562743;
 }
