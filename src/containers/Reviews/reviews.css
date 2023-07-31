@@ -1,8 +1,110 @@
-.reviews h1{
-    color: #fff;
-    font-family: american typewritter, serif;
-    font-size: 175%;
-    text-align: center;
-    font-weight: 800;
-    padding: 0rem 29% 3rem;
+.reviews h1 {
+  color: #fff;
+  font-family: "oxymoron";
+  font-size: 300%;
+  text-align: center;
+  font-weight: 700;
+  padding: 0rem 10% 0rem;
+  margin: 1rem 0rem 0%;
+}
+.titlecontent p {
+  color: #fff;
+  font-family: "oxymoron";
+  letter-spacing: 0.04em;
+  font-size: 130%;
+  padding-bottom: 2rem;
+  text-align: center;
+  line-height: 150%;
+  font-weight: 600;
+}
+.titlecontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titlecontent div {
+  background: linear-gradient(89.97deg, #e40068 16.484%, #dbd717e6 102.67%);
+  width: 20%;
+  height: 6px;
+  border-radius: 3px;
+  margin: 1% 0 2%;
+}
+
+/* Card */
+.contennt {
+  margin: 1rem 0 4rem;
+}
+.bgany {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.reviews {
+  max-width: 100%;
+  margin: 0 0;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.review-card {
+  background: #f0f0f0;
+  margin: 1rem 1rem;
+  padding: 1%;
+  box-shadow: -5px 5px 1px #ef1f43;
+  max-width: 23%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.review-card:hover {
+  box-shadow: 0px 0px 1px #ef1f43;
+  scale: 1.039;
+}
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  column-gap: 6%;
+  border-bottom: 3px solid #ce1533;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+}
+
+.avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  background: #ccb2b2;
+}
+.username {
+  font-family: "baloo2";
+  font-size: 135%;
+}
+.message {
+  text-align: center;
+  padding: 0rem 1rem 36px;
+  font-size: 100%;
+  font-family: "Roboto";
+  letter-spacing: 0.019em;
+}
+.bgany button {
+  background: none;
+  border: 2px solid aliceblue;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 120%;
+  color: #fff;
+  padding: 0.6% 4%;
+  transition: transform 0.3s;
+  z-index: 3;
+  overflow: hidden;
+}
+.bgany button:hover {
+  transform: scale(1.039);
+  background-color: #fff;
+  color: #0b1220;
+  filter: drop-shadow(0px 0px 66px aliceblue);
+  z-index: 89;
 }
