@@ -105,7 +105,7 @@
 
 .botleft p {
   font-size: 116%;
-  font-family: 'baloo2';
+  font-family: "baloo2";
   color: #a7bab7;
   font-weight: 600;
   line-height: 13px;
@@ -124,7 +124,7 @@
   border-radius: 8px;
   word-wrap: normal;
   font-weight: 500;
-  font-family: 'oxymoron';
+  font-family: "oxymoron";
   margin: 1% 1%;
   transition: 0.4s;
 }
@@ -137,7 +137,7 @@
 }
 
 .btmm button a {
-  font-family: 'oxymoron';
+  font-family: "oxymoron";
 }
 .row3 {
   display: flex;
@@ -230,7 +230,7 @@
 .email p {
   color: #a7bab7;
   font-size: 116%;
-  font-family: 'baloo2';
+  font-family: "baloo2";
   font-weight: 700;
   margin-bottom: 0.2%;
   display: flex;
@@ -259,4 +259,58 @@
 .socialicons a svg path {
   background: #fff;
   color: #d9d6fa;
+}
+
+@media (max-width: 767.5px) {
+  #Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .row1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coleft {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coleft p {
+    text-align: center;
+    margin: 0;
+  }
+
+  .btmm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .colright {
+    display: none;
+  }
+
+  .row3 {
+    flex-direction: column;
+    margin: 5px;
+    align-items: center;
+  }
+
+  .botright {
+    margin: 1rem 0;
+  }
+
+  .socialicons {
+    column-gap: 6%;
+    margin: 1rem;
+  }
+  .coleft h1{
+    font-size: 263%;
+    text-align: center;
+  }
 }

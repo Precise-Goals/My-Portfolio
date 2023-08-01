@@ -159,3 +159,51 @@
     word-spacing: 4px;
     font-weight: 500;
 }
+
+
+@media (max-width:767.5px) {
+  
+  .Abouttitle {
+    font-size: 155%;
+  }
+
+  .page-about-heading {
+    max-width: 100%;
+  }
+
+  .horiembed {
+    margin: 0 1px 2rem;
+  }
+
+  .page-about-container {
+    width: 85%;
+    padding: 1rem;
+  }
+
+  .education img {
+    width: 6rem;
+    height: auto;
+  }
+
+  .imgs {
+    margin: 2rem 4px;
+  }
+
+  .page-about-container {
+    height: 26rem;
+  }
+
+  .img img {
+    width: 2rem;
+    margin: 0 1px;
+  }
+
+  .siximg {
+    column-gap: 0.3%;
+  }
+
+  .fourimg {
+    column-gap: 0.3%;
+  }
+  
+}

@@ -5,7 +5,9 @@
   padding: 0 10%;
   column-gap: 30%;
 }
-
+.Mobigo{
+  display: none;
+}
 .linktabs {
   display: flex;
   width: 80%;

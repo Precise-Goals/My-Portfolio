@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
+import logo1sas from '../../assets/resources/smphbg-removebg-preview.png'
 import './navbar.css';
 import vidbg from '../../assets/resources/vidbg.mp4';
 import logo from '../../assets/resources/navlogo.png';
@@ -20,7 +21,8 @@ const Navbar = () => {
       <div className='filters'>
         <div className='navlogo'>
           <Link to="top" spy={true} smooth={true} offset={-100} duration={300} delay >
-            <img src={logo} alt="logo" loading="lazy" width="160px" height="100px" />
+            <img src={logo} className='pcgo' alt="logo" loading="lazy" width="160px" height="100px" />
+            <img src={logo1sas} alt="logo" className="Mobigo"loading="lazy" width="160px" height="100px" />
           </Link>
         </div>
         <div className='linktabs'>

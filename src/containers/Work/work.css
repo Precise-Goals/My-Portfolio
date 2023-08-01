@@ -131,3 +131,51 @@
   border-radius: 29rem;
   filter: blur(6rem);
 }
+
+@media screen and (max-width: 767px) {
+  .workdef {
+    margin: 0;
+  }
+  .workdef h1 {
+    margin: 2rem 0px;
+    .workdef h1 {
+      margin: 2rem 0px;
+    }
+  }
+  .workdef p {
+    font-size: 99%;
+    width: 85%;
+    margin-bottom: 3rem;
+  }
+  .Charts {
+    display: none;
+  }
+  .buttons button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 76%;
+  }
+
+  .buttons button a {
+    font-family: "baloo2";
+  }
+  .bgany {
+    max-width: 100%;
+    padding: 0;
+  }
+  .workdef h1 {
+    margin: 1rem 0;
+  }
+
+  .titlecontent h1 {
+    font-size: 222%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .titlecontent div {
+    width: 45%;
+    margin: 1rem 0 2rem;
+  }
+}

@@ -11,18 +11,25 @@
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
-  -webkit-user-drag: none ;
+  -webkit-user-drag: none;
 }
 
 body {
-  background:#000000;
+  background: #000000;
   scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   display: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-a,p,h1,h2,h3,h4,h5,h6{
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   -ms-user-select: none;
   user-select: none;
   -moz-user-select: none;
@@ -34,19 +41,74 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
-  .section__padding {
-    padding: 4rem;
+@media screen and (max-width: 767px) {
+  .App {
+    overflow-x: hidden;
   }
-  .section__margin {
-    margin: 4rem;
+  .imagecontent {
+    margin: 8% 0rem 1rem;
   }
+  .imagecontent div a img {
+    width: 4rem;
+    height: auto;
+  }
+  .gradient__bg {
+    background-image: url(./assets/resources/smph.webp);
+    background-size: contain;
+    background-position: 0rem -1rem;
+    overflow-x: hidden;
+  }
+  .navlogo a img {
+    width: 9rem;
+    position: absolute;
+    left: 0;
+    height: auto;
+  }
+
+  .linktabs {
+    display: none;
+  }
+
+  .yay {
+    display: none;
+  }
+
+  .linktabs {
+    display: none;
+  }
+
+  .Contenthome {
+    padding: 9rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .written h1 {
+    font-size: 238%;
+    margin-top: 70%;
+    padding: 1% 6% 1%;
+    word-spacing: 0.3rem;
+    margin-bottom: 5rem;
+  }
+  .pcgo {
+    display: none;
+  }
+  .Mobigo {
+    display: block;
+  }
+
+  .written span {
+    line-height: 0rem;
+    letter-spacing: 0;
+  }
+
+  .written p {
+    display: none;
+  }
+
+  .written span span {
+    color: #eaea07;
+  }
+  
 }
-@media screen and (max-width: 550px) {
-  .section__padding {
-    padding: 4rem 2rem;
-  }
-  .section__margin {
-    margin: 4rem 2rem;
-  }
-}
+
