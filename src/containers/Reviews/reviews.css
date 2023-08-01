@@ -52,8 +52,10 @@
   padding: 1rem 3rem;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
-
 .review-card {
   background: #ffffffc9;
   margin: 1rem 1rem;
