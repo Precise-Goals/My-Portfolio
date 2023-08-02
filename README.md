@@ -1,7 +1,7 @@
 
 # Hi there! 👋 Welcome to my Tech Journey!
 
-![Tech Journey](https://example.com/path/to/image) *(Replace the image URL with your own image)*
+![Tech Journey](https://example.com/path/to/image)
 
 ## About Me
 
