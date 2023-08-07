@@ -1,8 +1,6 @@
 
 # Hi there! 👋 Welcome to my Tech Journey!
 
-![Tech Journey](https://example.com/path/to/image) *(Replace the image URL with your own image)*
-
 ## About Me
 
 Hey, I'm Sarthak, a young and enthusiastic teenager on a thrilling journey of learning and exploring the technical world! 🚀 As a JEE aspirant, I'm committed to achieving my academic goals, but my true passion lies in frontend development and Python programming with PyCharm. I find joy in creating amazing web experiences and exploring the endless possibilities that coding offers.
