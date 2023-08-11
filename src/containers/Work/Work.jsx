@@ -22,14 +22,14 @@ const Work = () => {
             <div className='bar'></div>
             <h1>My Portfolio</h1>
             <div className="circle"> </div>
-            <p>Hello, I am a dynamic and multi-talented individual with expertise in frontend development, UX/UI design, graphic design, and Discord server customization. I showcase my creative designs on my Instagram feed and have successfully managed best quality of work. Out of those, 94% of clients have been thoroughly impressed with my work Check out my work by clicking the buttons below !</p>
+            <p>Hello, I am a dynamic and multi-talented individual with expertise in Programming and AIML development, UX/UI design, graphic design, and Discord server customization. I showcase my creative designs on my Instagram feed and have successfully managed best quality of work. Out of those, 94% of clients have been thoroughly impressed with my work Check out my work by clicking the buttons below !</p>
           </div>
         </div>
         <div className='workfids'>
           <div className='buttons'>
-            <button className='fidbtm1'><a href="#aas">Frontend</a></button>
-            <button className='fidbtm2'><a href="#aas">Gfx Designer</a></button>
-            <button className='fidbtm3'><a href="#aas">Discord Dev</a></button>
+            <button className='fidbtm1'><a href="https://github.com/Precise-Goals">Programming</a></button>
+            <button className='fidbtm2'><a href="https://precisegallery.pages.dev">Gfx Designer</a></button>
+            <button className='fidbtm3'><a href="https://precisediscord.pages.dev">Discord Dev</a></button>
           </div>
           <div className='Charts'><Chart /></div>
         </div>
