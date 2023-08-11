@@ -20,7 +20,7 @@ const Header = () => (
           <div><a href="https://www.instagram.com/precise_goals/"><img loading="lazy" src={instagram} alt="Instagram Logo" width="125" height="25" /></a></div>
           <div><a href="https://github.com/Precise-Goals"><img loading="lazy" src={github} alt="GitHub Logo" width="125" height="25" /></a></div>
           <div><a href="https://replit.com/@SarthakTulsidas"><img loading="lazy" src={replit} alt="Replit Logo" width="125" height="25" /></a></div>
-          <div><a href="https://discord.gg/MrZVXNkYwW"><img loading="lazy" src={discord} alt="Discord Logo" width="125" height="25" /></a></div>
+          <div><a href="https://discord.gg/9pCnsJqXQ9"><img loading="lazy" src={discord} alt="Discord Logo" width="125" height="25" /></a></div>
           <div><a href="https://www.linkedin.com/in/sarthak-tulsidas-patil-11914b24a/"><img loading="lazy" src={linked} alt="LinkedIn Logo" width="125" height="25" /></a></div>
         </div>
       </div>
