@@ -38,9 +38,9 @@ const Footer = () => {
               <h4><p><Link to='Work' spy={true} smooth={true} offset={-25} duration={300} delay={0}>Portfolio</Link></p></h4>
               <ul>
                 <li>
-                  <h5><p><Link to='fff'>Frontend </Link></p></h5>
-                  <h5><p><Link to='fff'>Graphics Design</Link></p></h5>
-                  <h5><p><Link to='fff'>Discord dev</Link></p></h5>
+                  <h5><p><Link href='https://github.com/Precise-Goals'>Programming</Link></p></h5>
+                  <h5><p><Link href='https://precisegallery.pages.dev/'>Graphics Design</Link></p></h5>
+                  <h5><p><Link to='https://precisediscord.pages.dev/'>Discord dev</Link></p></h5>
                 </li>
               </ul>
             </div>
