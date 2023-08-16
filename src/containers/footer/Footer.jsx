@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='email'><p><FaPaperPlane className='enve' />elitesarthakamr@gmail.com</p></div>
+        <div className='email'><p><FaPaperPlane className='enve' /><a  href="mailto:elitesarthakamr@gmail.com?subject=Contact%20and%20Feedback">elitesarthakamr@gmail.com</a></p></div>
         <div className='row3'>
           <div className="botleft"><p>© 2022-23  Sarthak Patil  - All rights reserved.</p></div>
           <div className="botright">

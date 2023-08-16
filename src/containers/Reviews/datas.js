@@ -1,6 +1,5 @@
 import avatar1 from '../../assets/av1.png'
 import avatar2 from '../../assets/av2.png'
-import avatar3 from '../../assets/av3.png'
 import avatar4 from '../../assets/av4.png'
 import avatar5 from '../../assets/av5.png'
 
