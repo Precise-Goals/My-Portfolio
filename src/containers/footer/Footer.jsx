@@ -64,8 +64,8 @@ const Footer = () => {
               <a target="_blank" rel='noreferrer' href="https://www.youtube.com/channel/UC3WNgoJ9XxHWAQT_98xUC7A"><FaYoutube className="yt" /></a>
               <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/sarthak-tulsidas-patil-11914b24a/"><FaLinkedin className="in" /></a>
               <a target="_blank" rel='noreferrer' href="https://discord.gg/9pCnsJqXQ9"><FaDiscord className="dc" /></a>
-              <a target="_blank" rel='noreferrer' href="https://www.instagram.com/precise_goals/"><FaInstagram className="insta" /></a>
-              <a target="_blank" rel='noreferrer' href="https://github.com/Precise-Goals"><FaGithub className="git" /></a>
+              <a target="_blank" rel='noreferrer' href="https://www.instagram.com/precisegoals.in/"><FaInstagram className="insta" /></a>
+              <a target="_blank" rel='noreferrer' href="https://github.com/Precise-Goals/"><FaGithub className="git" /></a>
               <a target="_blank" rel='noreferrer' href="https://open.spotify.com/user/31s4ssb5ucxgvzm6qonffom5aagm?si=b9a3cd369717458b"><FaSpotify className="spoty" /></a>
               <a target="_blank" rel='noreferrer' href="https://replit.com/@SarthakTulsidas"><FaCubes className="repl" /></a>
             </div>
